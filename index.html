@@ -39,308 +39,224 @@
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
-  <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-    <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-      <h1 class="sitename">Nomad Outsourcing</h1>
-    </a>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">iLanding</h1>
+      </a>
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active">Главная</a></li>
-        <li><a href="#about">О нас</a></li>
-        <li><a href="#features">Особенности</a></li>
-        <li><a href="#services">Услуги</a></li>
-        <li><a href="#pricing">Цены</a></li>
-        <li class="dropdown"><a href="#"><span>Дополнительно</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Вариант 1</a></li>
-            <li><a href="#">Вариант 2</a></li>
-            <li><a href="#">Вариант 3</a></li>
-            <li><a href="#">Вариант 4</a></li>
-          </ul>
-        </li>
-        <li><a href="#contact">Контакты</a></li>
-      </ul>
-      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-    </nav>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-    <a class="btn-getstarted" href="#about">Начать сотрудничество</a>
-  </div>
-</header>
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
 
+    </div>
+  </header>
 
   <main class="main">
 
     <!-- Hero Section -->
     <section id="hero" class="hero section">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
-          <div class="company-badge mb-4">
-            <i class="bi bi-gear-fill me-2"></i>
-            Ваш успех — наша работа
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="company-badge mb-4">
+                <i class="bi bi-gear-fill me-2"></i>
+                Working for your success
+              </div>
+
+              <h1 class="mb-4">
+                Maecenas Vitae <br>
+                Consectetur Led <br>
+                <span class="accent-text">Vestibulum Ante</span>
+              </h1>
+
+              <p class="mb-4 mb-md-5">
+                Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+                Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
+                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-link mt-2 mt-sm-0 glightbox">
+                  <i class="bi bi-play-circle me-1"></i>
+                  Play Video
+                </a>
+              </div>
+            </div>
           </div>
 
-          <h1 class="mb-4">
-            Аутсорсинговые решения <br>
-            для вашего бизнеса <br>
-            <span class="accent-text">с Nomad Outsourcing</span>
-          </h1>
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid">
 
-          <p class="mb-4 mb-md-5">
-            Оптимизация бизнес-процессов, бухгалтерский учёт, IT-поддержка и кадровые услуги — всё для вашего роста и развития.
-          </p>
-
-          <div class="hero-buttons">
-            <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Узнать больше</a>
-            <a href="#calculator" class="btn btn-link mt-2 mt-sm-0">
-              <i class="bi bi-calculator me-1"></i>
-              Онлайн-калькулятор
-            </a>
+              <div class="customers-badge">
+                <div class="customer-avatars">
+                  <img src="assets/img/avatar-1.webp" alt="Customer 1" class="avatar">
+                  <img src="assets/img/avatar-2.webp" alt="Customer 2" class="avatar">
+                  <img src="assets/img/avatar-3.webp" alt="Customer 3" class="avatar">
+                  <img src="assets/img/avatar-4.webp" alt="Customer 4" class="avatar">
+                  <img src="assets/img/avatar-5.webp" alt="Customer 5" class="avatar">
+                  <span class="avatar more">12+</span>
+                </div>
+                <p class="mb-0 mt-2">12,000+ lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-6">
-        <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-          <img src="assets/img/nomad-illustration.webp" alt="Nomad Outsourcing" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="about" class="about section">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row gy-4 align-items-center justify-content-between">
-      <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
-        <span class="about-meta">О НАС</span>
-        <h2 class="about-title">Надежный партнёр для вашего бизнеса</h2>
-        <p class="about-description">
-          Nomad Outsourcing LLC — это команда профессионалов, предоставляющих широкий спектр аутсорсинговых услуг. Мы помогаем компаниям сосредоточиться на ключевых бизнес-процессах, беря на себя задачи по бухгалтерскому учету, IT-поддержке, управлению персоналом и консалтингу.
-        </p>
-
-        <div class="row feature-list-wrapper">
-          <div class="col-md-6">
-            <ul class="feature-list">
-              <li><i class="bi bi-check-circle-fill"></i> Бухгалтерские и аудиторские услуги</li>
-              <li><i class="bi bi-check-circle-fill"></i> Управление персоналом</li>
-              <li><i class="bi bi-check-circle-fill"></i> IT-аутсорсинг</li>
-            </ul>
+        <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-trophy"></i>
+              </div>
+              <div class="stat-content">
+                <h4>3x Won Awards</h4>
+                <p class="mb-0">Vestibulum ante ipsum</p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6">
-            <ul class="feature-list">
-              <li><i class="bi bi-check-circle-fill"></i> Регистрация компаний</li>
-              <li><i class="bi bi-check-circle-fill"></i> Сопровождение бизнеса</li>
-              <li><i class="bi bi-check-circle-fill"></i> Консультационные услуги</li>
-            </ul>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-briefcase"></i>
+              </div>
+              <div class="stat-content">
+                <h4>6.5k Faucibus</h4>
+                <p class="mb-0">Nullam quis ante</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <div class="stat-content">
+                <h4>80k Mauris</h4>
+                <p class="mb-0">Etiam sit amet orci</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-award"></i>
+              </div>
+              <div class="stat-content">
+                <h4>6x Phasellus</h4>
+                <p class="mb-0">Vestibulum ante ipsum</p>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
 
-      <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="image-wrapper">
-          <img src="assets/img/about-nomad.webp" alt="О компании Nomad Outsourcing" class="img-fluid rounded-4">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="services" class="services section">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="section-title text-center">
-      <h2>Наши услуги</h2>
-      <p>Комплексные решения для вашего бизнеса</p>
-    </div>
-    <div class="row gy-4">
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-bar-chart-line"></i>
-          <h3>Бухгалтерский учёт и аудит</h3>
-          <p>Профессиональное ведение бухгалтерского учёта и финансовый аудит для вашего бизнеса.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-people"></i>
-          <h3>Кадровый аутсорсинг</h3>
-          <p>Эффективный найм, управление персоналом и HR-консалтинг.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-laptop"></i>
-          <h3>IT-аутсорсинг</h3>
-          <p>Поддержка IT-инфраструктуры и техническое сопровождение бизнес-процессов.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-briefcase"></i>
-          <h3>Регистрация компаний</h3>
-          <p>Помощь в регистрации бизнеса и юридическое сопровождение.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-gear"></i>
-          <h3>Сопровождение бизнеса</h3>
-          <p>Полный спектр услуг для поддержки и развития вашего бизнеса.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-chat-dots"></i>
-          <h3>Консультационные услуги</h3>
-          <p>Профессиональные бизнес-консультации по вопросам управления и оптимизации.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-cash-stack"></i>
-          <h3>Зарплатные расчеты</h3>
-          <p>Обеспечьте точный и своевременный расчет заработной платы для ваших сотрудников без лишних хлопот!</p>
-          <ul>
-            <li>Расчет заработной платы с учетом налогов и отчислений</li>
-            <li>Подготовка платежных ведомостей</li>
-            <li>Удержание и перечисление налогов и соцвзносов</li>
-            <li>Подготовка отчетов для Социального фонда и налоговой службы</li>
-            <li>Ведение учета рабочего времени и отпусков</li>
-            <li>Оформление расчетных и платежных документов</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-file-earmark-text"></i>
-          <h3>Сдача отчетности</h3>
-          <p>Доверьте нам подготовку и сдачу налоговой отчетности, чтобы избежать штрафов и задержек!</p>
-          <ul>
-            <li>Подготовка и сдача налоговых отчетов (НДС, ОНС, УСН)</li>
-            <li>Сдача отчетов в Социальный фонд и органы статистики</li>
-            <li>Подготовка отчетности по прибыли и убыткам</li>
-            <li>Электронная сдача отчетов</li>
-            <li>Корректировка ранее поданных отчетов</li>
-            <li>Ведение отчетности по сотрудникам (зарплата и соцвзносы)</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-lightbulb"></i>
-          <h3>Налоговые консультации</h3>
-          <p>Получите профессиональную консультацию по налогам и оптимизируйте свои расходы уже сегодня!</p>
-          <ul>
-            <li>Оптимизация налоговой нагрузки</li>
-            <li>Анализ налоговых рисков и предотвращение штрафов</li>
-            <li>Консультирование по изменениям в налоговом законодательстве</li>
-            <li>Подготовка к налоговым проверкам</li>
-            <li>Разработка налоговых стратегий</li>
-            <li>Консультации по международному налогообложению</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box">
-          <i class="bi bi-receipt"></i>
-          <h3>Выписка ЭСФ</h3>
-          <p>Выписывайте электронные счета-фактуры быстро и без ошибок с помощью наших экспертов!</p>
-          <ul>
-            <li>Создание и оформление электронных счетов-фактур в системе e-SF</li>
-            <li>Регистрация ЭСФ в соответствии с требованиями законодательства</li>
-            <li>Проверка правильности данных перед отправкой</li>
-            <li>Автоматизация процесса выписки ЭСФ</li>
-            <li>Исправление ошибок и аннулирование некорректных ЭСФ</li>
-            <li>Ведение реестра выписанных ЭСФ для налоговой отчетности</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
+    </section><!-- /Hero Section -->
 
     <!-- About Section -->
-<section id="about" class="about section">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row gy-4 align-items-center justify-content-between">
-      <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
-        <span class="about-meta">О НАС</span>
-        <h2 class="about-title">Ваш партнер в сфере аутсорсинга</h2>
-        <p class="about-description">Nomad Outsourcing LLC предоставляет профессиональные аутсорсинговые услуги, включая бухгалтерский учет, аудит, управление персоналом, IT-услуги и бизнес-консалтинг. Мы помогаем бизнесам расти, оптимизируя процессы и снижая издержки.</p>
+    <section id="about" class="about section">
 
-        <div class="row feature-list-wrapper">
-          <div class="col-md-6">
-            <ul class="feature-list">
-              <li><i class="bi bi-check-circle-fill"></i> Финансовый и бухгалтерский учет</li>
-              <li><i class="bi bi-check-circle-fill"></i> IT-аутсорсинг</li>
-              <li><i class="bi bi-check-circle-fill"></i> Управление персоналом</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul class="feature-list">
-              <li><i class="bi bi-check-circle-fill"></i> Регистрация компаний</li>
-              <li><i class="bi bi-check-circle-fill"></i> Сопровождение бизнеса</li>
-              <li><i class="bi bi-check-circle-fill"></i> Консультационные услуги</li>
-            </ul>
-          </div>
-        </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="info-wrapper">
-          <div class="row gy-4">
-            <div class="col-lg-5">
-              <div class="profile d-flex align-items-center gap-3">
-                <img src="assets/img/avatar-1.webp" alt="CEO Profile" class="profile-image">
-                <div>
-                  <h4 class="profile-name">Временно имя</h4>
-                  <p class="profile-position">Генеральный директор</p>
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta">MORE ABOUT US</span>
+            <h2 class="about-title">Voluptas enim suscipit temporibus</h2>
+            <p class="about-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+            <div class="row feature-list-wrapper">
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Consectetur adipiscing elit</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Sed do eiusmod tempor</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Incididunt ut labore et</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Dolore magna aliqua</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Ut enim ad minim veniam</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-wrapper">
+              <div class="row gy-4">
+                <div class="col-lg-5">
+                  <div class="profile d-flex align-items-center gap-3">
+                    <img src="assets/img/avatar-1.webp" alt="CEO Profile" class="profile-image">
+                    <div>
+                      <h4 class="profile-name">Mario Smith</h4>
+                      <p class="profile-position">CEO &amp; Founder</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="contact-info d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                      <p class="contact-label">Call us anytime</p>
+                      <p class="contact-number">+123 456-789</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-7">
-              <div class="contact-info d-flex align-items-center gap-2">
-                <i class="bi bi-telephone-fill"></i>
-                <div>
-                  <p class="contact-label">Позвоните нам</p>
-                  <p class="contact-number">+996 XXX XXX XXX (уточнить позже)</p>
-                </div>
+          </div>
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/about-5.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/about-2.webp" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+              <div class="experience-badge floating">
+                <h3>15+ <span>Years</span></h3>
+                <p>Of experience in business service</p>
               </div>
             </div>
           </div>
         </div>
+
       </div>
 
-      <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="image-wrapper">
-          <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-            <img src="assets/img/about-5.webp" alt="Business Solutions" class="img-fluid main-image rounded-4">
-            <img src="assets/img/about-2.webp" alt="Team Work" class="img-fluid small-image rounded-4">
-          </div>
-          <div class="experience-badge floating">
-            <h3>10+ <span>лет опыта</span></h3>
-            <p>Профессионализм и надежность в каждом проекте</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /About Section -->
+    </section><!-- /About Section -->
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -899,69 +815,137 @@
 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section light-background">
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Тарифные планы</h2>
-    <p>Выберите оптимальный пакет услуг для вашего бизнеса</p>
-  </div>
 
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row g-4 justify-content-center">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
 
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="pricing-card">
-          <h3>Базовый</h3>
-          <div class="price">
-            <span class="currency">20 000 с</span>
-            <span class="old-price">23 500 с (-15%)</span>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 justify-content-center">
+
+          <!-- Basic Plan -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing-card">
+              <h3>Basic Plan</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="amount">9.9</span>
+                <span class="period">/ month</span>
+              </div>
+              <p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.</p>
+
+              <h4>Featured Included:</h4>
+              <ul class="features-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Duis aute irure dolor
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Excepteur sint occaecat
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Nemo enim ipsam voluptatem
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-primary">
+                Buy Now
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
           </div>
-          <ul class="features-list">
-            <li>Зарплатные расчеты</li>
-            <li>Сдача отчетности</li>
-            <li>Налоговые консультации</li>
-            <li>Выписка ЭСФ</li>
-          </ul>
-          <a href="#contact" class="btn btn-primary">Заказать</a>
+
+          <!-- Standard Plan -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-card popular">
+              <div class="popular-badge">Most Popular</div>
+              <h3>Standard Plan</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="amount">19.9</span>
+                <span class="period">/ month</span>
+              </div>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+
+              <h4>Featured Included:</h4>
+              <ul class="features-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Lorem ipsum dolor sit amet
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Consectetur adipiscing elit
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Sed do eiusmod tempor
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Ut labore et dolore magna
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-light">
+                Buy Now
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Premium Plan -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-card">
+              <h3>Premium Plan</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="amount">39.9</span>
+                <span class="period">/ month</span>
+              </div>
+              <p class="description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+
+              <h4>Featured Included:</h4>
+              <ul class="features-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Temporibus autem quibusdam
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Saepe eveniet ut et voluptates
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Nam libero tempore soluta
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Cumque nihil impedit quo
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Maxime placeat facere possimus
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-primary">
+                Buy Now
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
         </div>
+
       </div>
 
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="pricing-card popular">
-          <div class="popular-badge">Популярный выбор</div>
-          <h3>Стандартный</h3>
-          <div class="price">
-            <span class="currency">50 000 с</span>
-            <span class="old-price">58 825 с (-15%)</span>
-          </div>
-          <ul class="features-list">
-            <li>Всё из базового пакета</li>
-            <li>Консультации по налогам и оптимизации</li>
-            <li>Подготовка платежных поручений</li>
-            <li>Взаимодействие с налоговыми органами</li>
-          </ul>
-          <a href="#contact" class="btn btn-light">Заказать</a>
-        </div>
-      </div>
-
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="pricing-card">
-          <h3>Премиум</h3>
-          <div class="price">
-            <span class="currency">100 000 с</span>
-            <span class="old-price">117 650 с (-15%)</span>
-          </div>
-          <ul class="features-list">
-            <li>Всё из стандартного пакета</li>
-            <li>Управленческий учет и фин анализ</li>
-            <li>Сопровождение при налоговых проверках</li>
-            <li>Автоматизация и контроль фин потоков</li>
-          </ul>
-          <a href="#contact" class="btn btn-primary">Заказать</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /Pricing Section -->
+    </section><!-- /Pricing Section -->
 
     <!-- Faq Section -->
     <section class="faq-9 faq section light-background" id="faq">
