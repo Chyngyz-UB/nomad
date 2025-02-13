@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: iLanding
-Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
-Author: BootstrapMade.com
+Template Name: Nomad Outsourcing
+Template URL: https://chyngyz-ub.github.io/nomad/index.html
+Author: Chyngyz Usubaliev
 License: https://bootstrapmade.com/license/
