@@ -2335,8 +2335,12 @@ section,
 }
 
 .old-price {
-    text-decoration: line-through;
-    color: #999; /* Серый цвет для старой цены */
-    font-size: 14px; /* Можно уменьшить размер шрифта */
-    margin-left: 10px; /* Отступ от новой цены */
+    text-decoration: line-through; /* Зачеркивание */
+    color: #b0b0b0; /* Серый цвет */
+    font-size: 14px; /* Немного меньше основного текста */
+    font-weight: normal; /* Обычный шрифт */
+    margin-left: 8px; /* Отступ от новой цены */
+    display: inline-block; /* Для корректного отображения */
+    vertical-align: middle; /* Выровнять по центру строки */
 }
+
