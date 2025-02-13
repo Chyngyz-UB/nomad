@@ -2336,12 +2336,13 @@ section,
 
 .old-price {
     text-decoration: line-through !important; /* Гарантированное зачеркивание */
-    color: #b0b0b0; /* Серый цвет */
-    font-size: 14px; /* Меньше основного текста */
+    color: #000 !important; /* Чёрный цвет */
+    font-size: 14px; /* Меньше основной цены */
     font-weight: normal; /* Обычный шрифт */
     margin-left: 8px; /* Отступ от новой цены */
     display: inline-block; /* Корректное отображение */
     vertical-align: middle; /* Выровнять по центру строки */
 }
+
 
 
