@@ -2328,3 +2328,8 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.logo-img {
+    height: 40px; /* Укажи нужную высоту логотипа */
+    width: auto; /* Подстройка ширины автоматически */
+}
