@@ -77,7 +77,11 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
 h2,
 h3,
 h4,
