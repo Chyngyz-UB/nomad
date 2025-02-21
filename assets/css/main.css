@@ -2345,4 +2345,15 @@ section,
 }
 
 
+.calculator-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border: 2px solid #337AB7;
+    margin: auto;
+}
 
