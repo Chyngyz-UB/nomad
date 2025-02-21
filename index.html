@@ -110,41 +110,38 @@
 
               
             </div>
-          </div>
+         
 
-          <div class="col-lg-6">
-            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/illustration-1.png" alt="Аутсорсинговые услуги" class="img-fluid main-image rounded-4">
-             
-             </div>
-          </div>
-        </div>
+<div class="col-lg-6">
+    <div class="calculator-container" data-aos="zoom-out" data-aos-delay="300">
+        <h2>Калькулятор зарплаты</h2>
+        <p>Введите сумму и получите расчет зарплаты с учетом налогов и отчислений.</p>
 
-        <-- Calculator Section-->
-          <section id="salary-calculator" class="section light-background">
-  <div class="container" data-aos="fade-up">
-    <h2>Калькулятор зарплаты</h2>
-    <p>Введите сумму и получите расчет зарплаты с учетом налогов и отчислений.</p>
-
-    <div class="calculator">
-        <label for="grossSalary">Введите оклад (брутто):</label>
-        <input type="number" id="grossSalary" placeholder="Сумма в KGS" oninput="calculateSalary()"/>
-        <label>
-            <input type="checkbox" id="highAltitude" onchange="calculateSalary()"> Работа на высокогорье
-        </label>
-        <div class="result">
-            <p>Брутто-зарплата: <span class="highlight" id="grossDisplay">0.00</span> KGS</p>
-            <p>Отчисления в ОПВ (8%): -<span class="highlight" id="opvDisplay">0.00</span> KGS</p>
-            <p>Социальные отчисления (2%): -<span class="highlight" id="socialDisplay">0.00</span> KGS</p>
-            <p>Налогооблагаемый доход: <span class="highlight" id="taxableDisplay">0.00</span> KGS</p>
-            <p>Подоходный налог (10%): -<span class="highlight" id="incomeTaxDisplay">0.00</span> KGS</p>
-            <p>Надбавка за высокогорье (50%): +<span class="highlight" id="highAltitudeDisplay">0.00</span> KGS</p>
-            <h3>Чистая зарплата (нетто): <span class="highlight" id="netDisplay">0.00</span> KGS</h3>
+        <div class="calculator">
+            <label for="grossSalary">Введите оклад (брутто):</label>
+            <input type="number" id="grossSalary" placeholder="Сумма в KGS" oninput="calculateSalary()"/>
+            <label>
+                <input type="checkbox" id="highAltitude" onchange="calculateSalary()"> Работа на высокогорье
+            </label>
+            <div class="result">
+                <p>Брутто-зарплата: <span class="highlight" id="grossDisplay">0.00</span> KGS</p>
+                <p>Отчисления в ОПВ (8%): -<span class="highlight" id="opvDisplay">0.00</span> KGS</p>
+                <p>Социальные отчисления (2%): -<span class="highlight" id="socialDisplay">0.00</span> KGS</p>
+                <p>Налогооблагаемый доход: <span class="highlight" id="taxableDisplay">0.00</span> KGS</p>
+                <p>Подоходный налог (10%): -<span class="highlight" id="incomeTaxDisplay">0.00</span> KGS</p>
+                <p>Надбавка за высокогорье (50%): +<span class="highlight" id="highAltitudeDisplay">0.00</span> KGS</p>
+                <h3>Чистая зарплата (нетто): <span class="highlight" id="netDisplay">0.00</span> KGS</h3>
+            </div>
         </div>
     </div>
-  </div>
-</section>
-        <--/Calculator Section-->
+</div>
+
+
+
+            
+        </div>
+
+       
           
 
     </section><!-- /Hero Section -->
