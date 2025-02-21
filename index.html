@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
 
+ <!-- /Header -->
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -63,59 +65,21 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Подробнее</a>
+
     </div>
   </header>
 
   <main class="main">
-    
-<!-- Hero Section -->
+
+
+    <!-- Hero Section -->
     <section id="hero" class="hero section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-       
-
         <div class="row align-items-center">
-    <div class="col-lg-6">
-        <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
-            <div class="company-badge mb-4">
-                <i class="bi bi-gear-fill me-2"></i>
-                Мы упрощаем ваш бизнес!
-            </div>
-            <h1 class="mb-4">Бухгалтерское сопровождение вашего бизнеса в Кыргызстане</h1>
-            <p class="mb-4 mb-md-5">
-                Оптимизируйте расходы – наш аутсорсинг выгоднее штатного бухгалтера!
-            </p>
-        </div>
-    </div>
-
-    <div class="col-lg-6 d-flex justify-content-center">
-        <div class="calculator-container">
-            <h2>Калькулятор зарплаты</h2>
-            <p>Введите сумму и получите расчет зарплаты с учетом налогов и отчислений.</p>
-
-            <div class="calculator">
-                <label for="grossSalary">Введите оклад (брутто):</label>
-                <input type="number" id="grossSalary" placeholder="Сумма в KGS" oninput="calculateSalary()"/>
-                <label>
-                    <input type="checkbox" id="highAltitude" onchange="calculateSalary()"> Работа на высокогорье
-                </label>
-                <div class="result">
-                    <p>Брутто-зарплата: <span class="highlight" id="grossDisplay">0.00</span> KGS</p>
-                    <p>Отчисления в ОПВ (8%): -<span class="highlight" id="opvDisplay">0.00</span> KGS</p>
-                    <p>Социальные отчисления (2%): -<span class="highlight" id="socialDisplay">0.00</span> KGS</p>
-                    <p>Налогооблагаемый доход: <span class="highlight" id="taxableDisplay">0.00</span> KGS</p>
-                    <p>Подоходный налог (10%): -<span class="highlight" id="incomeTaxDisplay">0.00</span> KGS</p>
-                    <p>Надбавка за высокогорье (50%): +<span class="highlight" id="highAltitudeDisplay">0.00</span> KGS</p>
-                    <h3>Чистая зарплата (нетто): <span class="highlight" id="netDisplay">0.00</span> KGS</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-          
           <div class="col-lg-6">
             <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
               <div class="company-badge mb-4">
@@ -123,44 +87,103 @@
                 Мы упрощаем ваш бизнес!
               </div>
 
-<h1 class="mb-4" style="text-align: center; font-family: 'Arial', sans-serif; display: flex; flex-direction: column; align-items: center;">
+              <h1 class="mb-4" style="text-align: center; font-family: 'Arial', sans-serif; display: flex; flex-direction: column; align-items: center;">
     <span class="accent-text" 
-          style="font-size: clamp(42px, 12vw, 72px);  
+          style="font-size: clamp(37px, 9vw, 68px);  
                  font-weight: 900; 
-                 font-family: 'Arial', sans-serif;
-                 color: #337AB7;">
+                 font-family: 'Arial', sans-serif;">
         Бухгалтерское
     </span>
-</h1>
-
       
     <span style="font-size: clamp(24px, 5.3vw, 45.3px);
-             letter-spacing: 2px;
-             font-family: 'Arial', sans-serif;
-             line-height: 1.1;">
-    сопровождение вашего бизнеса в Кыргызстане
-</span>
-
+                 letter-spacing: 2px; 
+                 font-family: 'Arial', sans-serif;">
+        сопровождение вашего бизнеса в Кыргызстане
+    </span>
 </h1>
 
 
               <p class="mb-4 mb-md-5">
-                Оптимизируйте расходы – наш аутсорсинг выгоднее штатного бухгалтера!
+                Оптимизируйте расходы на бухгалтерию – наш аутсорсинг выгоднее штатного специалиста! Только необходимые  без лишних затрат.
               </p>
 
-              
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Узнать больше</a>
+                <a href="https://www.youtube.com/watch?v=dutgeLPe0SI" class="btn btn-link mt-2 mt-sm-0 glightbox">
+                  <i class="bi bi-play-circle me-1"></i>
+                  Смотреть видео
+                </a>
+              </div>
             </div>
-         
+          </div>
 
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/illustration-1.webp" alt="Аутсорсинговые услуги" class="img-fluid">
 
-
-
-
-            
+              <div class="customers-badge">
+                <div class="customer-avatars">
+                  <img src="assets/img/avatar-1.webp" alt="Клиент 1" class="avatar">
+                  <img src="assets/img/avatar-2.webp" alt="Клиент 2" class="avatar">
+                  <img src="assets/img/avatar-3.webp" alt="Клиент 3" class="avatar">
+                  <img src="assets/img/avatar-4.webp" alt="Клиент 4" class="avatar">
+                  <img src="assets/img/avatar-5.webp" alt="Клиент 5" class="avatar">
+                  <span class="avatar more">6+</span>
+                </div>
+                <p class="mb-0 mt-2">6+ компаний доверяют нам управление бизнес-процессами</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-       
-          
+        <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-briefcase"></i>
+              </div>
+              <div class="stat-content">
+                <h4>10+</h4>
+                <p class="mb-0">Уже довольные клиенты</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <div class="stat-content">
+                <h4>2 мес</h4>
+                <p class="mb-0">Опыт и энтузиазм</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <div class="stat-content">
+                <h4>6+</h4>
+                <p class="mb-0">Наша команда профессионалов</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-award"></i>
+              </div>
+              <div class="stat-content">
+                <h4>5+</h4>
+                <p class="mb-0">Мы стремимся к лучшему</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
     </section><!-- /Hero Section -->
 
@@ -488,88 +511,87 @@
 
 
     <!-- Testimonials Section -->
-<section id="testimonials" class="testimonials section light-background">
+    <section id="testimonials" class="testimonials section light-background">
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Отзывы</h2>
-    <p>Что говорят наши клиенты о нас</p>
-  </div><!-- End Section Title -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Отзывы</h2>
+        <p>Что говорят наши клиенты о нас</p>
+      </div><!-- End Section Title -->
 
-  <div class="container">
+      <div class="container">
 
-    <div class="row g-5">
+        <div class="row g-5">
 
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="testimonial-item">
-          <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Бакытбек Тургунов">
-          <h3>Бакытбек Тургунов</h3>
-          <h4>Генеральный директор &amp; Основатель</h4>
-          <div class="stars">
-            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-          </div>
-          <p>
-            <i class="bi bi-quote quote-icon-left"></i>
-            <span>Отличная работа! Профессионализм и внимание к деталям. Сотрудничество с вашей командой было удобным и эффективным.</span>
-            <i class="bi bi-quote quote-icon-right"></i>
-          </p>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Саул Гудман">
+              <h3>Саул Гудман</h3>
+              <h4>Генеральный директор &amp; Основатель</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Отличная работа! Высокое качество услуг и внимание к деталям. Работать с вашей командой было приятно и эффективно.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Сара Вилсон">
+              <h3>Сара Вилсон</h3>
+              <h4>Дизайнер</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Очень довольна сотрудничеством! Отличный сервис, оперативность и внимание к запросам клиента.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Джена Карлис">
+              <h3>Джена Карлис</h3>
+              <h4>Владелец магазина</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Благодарю за профессионализм! Сотрудничество с вами значительно упростило мою работу и улучшило результаты.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Мэтт Брэндон">
+              <h3>Мэтт Брэндон</h3>
+              <h4>Фрилансер</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Отличная работа! Быстрое выполнение задач, гибкость и надежность – именно то, что нужно для успешного сотрудничества.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
         </div>
-      </div><!-- End testimonial item -->
 
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="testimonial-item">
-          <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Айсулуу Өмүрзакова">
-          <h3>Айсулуу Өмүрзакова</h3>
-          <h4>Дизайнер</h4>
-          <div class="stars">
-            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-          </div>
-          <p>
-            <i class="bi bi-quote quote-icon-left"></i>
-            <span>Очень довольна сотрудничеством! Высокий уровень сервиса, оперативность и внимательное отношение к потребностям клиентов.</span>
-            <i class="bi bi-quote quote-icon-right"></i>
-          </p>
-        </div>
-      </div><!-- End testimonial item -->
+      </div>
 
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="testimonial-item">
-          <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Элдияр Абдыкеримов">
-          <h3>Элдияр Абдыкеримов</h3>
-          <h4>Владелец магазина</h4>
-          <div class="stars">
-            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-          </div>
-          <p>
-            <i class="bi bi-quote quote-icon-left"></i>
-            <span>Благодарю за профессионализм! Работа с вами упростила ведение бизнеса и помогла наладить финансовые процессы.</span>
-            <i class="bi bi-quote quote-icon-right"></i>
-          </p>
-        </div>
-      </div><!-- End testimonial item -->
-
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-        <div class="testimonial-item">
-          <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Нурбек Касымов">
-          <h3>Нурбек Касымов</h3>
-          <h4>Фрилансер</h4>
-          <div class="stars">
-            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-          </div>
-          <p>
-            <i class="bi bi-quote quote-icon-left"></i>
-            <span>Отличный сервис! Быстрая и точная работа, гибкость и надежность – именно то, что нужно для успешного сотрудничества.</span>
-            <i class="bi bi-quote quote-icon-right"></i>
-          </p>
-        </div>
-      </div><!-- End testimonial item -->
-
-    </div>
-
-  </div>
-
-</section><!-- /Testimonials Section -->
-
+    </section><!-- /Testimonials Section -->
 
   </main>
 
@@ -664,10 +686,6 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
-  <script src="assets/js/salary-calculator.js"></script>
-
-  
 
 </body>
 
